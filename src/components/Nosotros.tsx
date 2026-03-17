@@ -22,8 +22,8 @@ function Carrusel() {
   }
 
   return (
-    <div className="relative">
-      <div className="absolute -top-4 -left-4 w-full h-full bg-salmon/20 rounded-2xl" />
+    <div className="relative mx-4 md:mx-0 mb-10 md:mb-0">
+      <div className="absolute md:-top-4 md:-left-4 inset-0 md:inset-auto md:w-full md:h-full bg-salmon/20 rounded-2xl" />
       <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
         {platos.map((src, i) => (
           <img
@@ -62,7 +62,7 @@ function Carrusel() {
         </div>
       </div>
       {/* Floating badge */}
-      <div className="absolute -bottom-6 -right-6 bg-verde-oscuro text-crema rounded-2xl p-5 shadow-xl text-center z-10">
+      <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 bg-verde-oscuro text-crema rounded-2xl p-3 md:p-5 shadow-xl text-center z-10">
         <p className="font-display text-4xl font-bold text-salmon">2024</p>
         <p className="text-xs text-crema/60 uppercase tracking-wider mt-1">Since</p>
       </div>
