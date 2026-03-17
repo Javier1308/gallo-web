@@ -27,9 +27,9 @@ export default function Consultas() {
         src="/LogoGalloTransparente.png"
         alt=""
         aria-hidden="true"
-        className="absolute right-40 top-1/2 -translate-y-1/2 w-[656px] opacity-[12.5%] pointer-events-none select-none scale-x-[-1]"
+        className="hidden md:block absolute right-40 top-1/2 -translate-y-1/2 w-[656px] opacity-[12.5%] pointer-events-none select-none scale-x-[-1]"
       />
-      <div className="max-w-5xl mx-auto -translate-x-36">
+      <div className="max-w-5xl mx-auto md:-translate-x-36">
 
         {/* Header */}
         <div className="text-center mb-14">
