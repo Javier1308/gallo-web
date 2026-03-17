@@ -49,6 +49,32 @@
   }
 }
 
+/* Mobile: scale down 20% and center everything */
+@media (max-width: 767px) {
+  html {
+    font-size: 80%;
+  }
+
+  #root {
+    text-align: center;
+  }
+
+  /* Keep paragraph text inside cards left-aligned for readability */
+  .text-left-mobile {
+    text-align: left;
+  }
+
+  /* Center flex and grid children */
+  section .flex:not(.no-center) {
+    justify-content: center;
+    align-items: center;
+  }
+
+  section .grid {
+    justify-items: center;
+  }
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
