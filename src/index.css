@@ -58,21 +58,6 @@
   #root {
     text-align: center;
   }
-
-  /* Keep paragraph text inside cards left-aligned for readability */
-  .text-left-mobile {
-    text-align: left;
-  }
-
-  /* Center flex and grid children */
-  section .flex:not(.no-center) {
-    justify-content: center;
-    align-items: center;
-  }
-
-  section .grid {
-    justify-items: center;
-  }
 }
 
 /* Scrollbar */
